@@ -1,8 +1,8 @@
 class CreateProductCategories < ActiveRecord::Migration[5.0]
   def change
-    create_table :product_categories do |t|
+    create_table :product_categories do |tt|
 
-      t.timestamps
+      tt.timestamps
     end
   end
 end

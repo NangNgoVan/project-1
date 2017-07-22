@@ -1,18 +1,18 @@
 class CreateUsers < ActiveRecord::Migration[5.0]
   def change
-    create_table :users do |t|
-      t.string :name
-      t.string :email
-      t.string :password_digest
-      t.string :remember_digest
-      t.boolean :admin
-      t.string :activation_digest
-      t.boolean :activated
-      t.date :activated_at
-      t.string :reset_digest
-      t.date :reset_send_at
+    create_table :users do |tt|
+      tt.string :name
+      tt.string :email
+      tt.string :password_digest
+      tt.string :remember_digest
+      tt.boolean :admin
+      tt.string :activation_digest
+      tt.boolean :activated
+      tt.date :activated_at
+      tt.string :reset_digest
+      tt.date :reset_send_at
 
-      t.timestamps
+      tt.timestamps
     end
   end
 end

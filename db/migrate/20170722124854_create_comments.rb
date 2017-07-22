@@ -1,9 +1,9 @@
 class CreateComments < ActiveRecord::Migration[5.0]
   def change
-    create_table :comments do |t|
-      t.string :content
+    create_table :comments do |tt|
+      tt.string :content
 
-      t.timestamps
+      tt.timestamps
     end
   end
 end

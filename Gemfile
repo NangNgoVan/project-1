@@ -12,7 +12,6 @@ gem "rails", "~> 5.0.4"
 gem "rails_best_practices"
 gem "rubocop", require: false
 gem "rubocop-checkstyle_formatter", require: false
-gem "rails", "~> 5.0.4"
 gem "sass-rails", "~> 5.0"
 gem "scss_lint", require: false
 gem "sqlite3"

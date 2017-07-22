@@ -1,9 +1,9 @@
 class CreateRatings < ActiveRecord::Migration[5.0]
   def change
-    create_table :ratings do |t|
-      t.float :rating
+    create_table :ratings do |tt|
+      tt.float :rating
 
-      t.timestamps
+      tt.timestamps
     end
   end
 end

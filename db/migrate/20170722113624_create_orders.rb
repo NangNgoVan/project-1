@@ -1,11 +1,11 @@
 class CreateOrders < ActiveRecord::Migration[5.0]
   def change
-    create_table :orders do |t|
-      t.integer :quantity
-      t.date :requied_date
-      t.date :shipped_date
+    create_table :orders do |tt|
+      tt.integer :quantity
+      tt.date :requied_date
+      tt.date :shipped_date
 
-      t.timestamps
+      tt.timestamps
     end
   end
 end
