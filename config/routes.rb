@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'ratings/new'
+
   get 'categories/new'
 
   get 'product_categories/new'
