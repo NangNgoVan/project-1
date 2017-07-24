@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'product_orders/new'
+
   get 'users/new'
 
   get 'comments/new'
